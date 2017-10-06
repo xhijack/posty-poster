@@ -13,9 +13,9 @@ let idHostnames: string[] = [
 if (idHostnames.indexOf(window.location.hostname) > -1) {
     language = "id";
     watermarkLabel = "@wikislam",
-    window.document.title = "Wikislam Poster";
+    window.document.title = "WikislamPoster";
 } else {
-    window.document.title = "Wikislam Poster";
+    window.document.title = "WikislamPoster";
 
 }
 
