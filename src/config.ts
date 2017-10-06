@@ -7,14 +7,13 @@ let language: string = "en";
 let watermarkLabel: string = "@wikislam";
 
 let idHostnames: string[] = [
-    "wikislam.sopwer.net",
     "wikislam.sopwer.net"
 ];
 
 if (idHostnames.indexOf(window.location.hostname) > -1) {
     language = "id";
-    watermarkLabel = "@wikislam";
-    window.document.title = "Wikislam";
+    watermarkLabel = "@wikislam
+    window.document.title = "Wikislam Poster";
 } else {
     window.document.title = "Wikislam Poster";
 
@@ -29,7 +28,7 @@ export const config = {
     googleAnalytics: "X",
     
     // Url of design data, including design-packs and design-assets
-    designDataApi: "http://localhost:60572/data",
+    designDataApi: "http://sopwer.net/data",
 
     // Set language, en or id
     language: language
