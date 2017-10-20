@@ -28,7 +28,7 @@ export const config = {
     googleAnalytics: "X",
     
     // Url of design data, including design-packs and design-assets
-    designDataApi: "https://cors.io/?https://sopwer.net/data",
+    designDataApi: "https://sopwer.net/data",
 
     // Set language, en or id
     language: language
