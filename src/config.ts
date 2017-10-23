@@ -4,7 +4,7 @@
  */
 
 let language: string = "en";
-let watermarkLabel: string = "@wikislam";
+let watermarkLabel: string = "@AdDavii";
 
 let idHostnames: string[] = [
     "wikislam.sopwer.net"
@@ -12,10 +12,10 @@ let idHostnames: string[] = [
 
 if (idHostnames.indexOf(window.location.hostname) > -1) {
     language = "id";
-    watermarkLabel = "@wikislam",
-    window.document.title = "WikislamPoster";
+    watermarkLabel = "@AdDavii",
+    window.document.title = "AdDavii Poster";
 } else {
-    window.document.title = "WikislamPoster";
+    window.document.title = "AdDavii Poster";
 
 }
 

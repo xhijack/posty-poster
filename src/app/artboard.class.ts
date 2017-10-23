@@ -94,13 +94,14 @@ export class ArtboardClass {
                     border-top-left-radius: 4px;
 
                     color: white;
-                    font-size: 20px;
+                    font-size: 40px;
                     font-family: 'Source Sans Pro', sans-serif;
 
                     background: rgba(0, 0, 0, 0.5);
                     
                     user-select: none !important; 
                 }
+
             </style>
             <style>
                 ${this.styleRaw}
