@@ -85,14 +85,13 @@ export class ArtboardClass {
                     content: "${config.watermarkLabel}";
 
                     position: fixed;
-                    right: 0;
+                    right: 400px;
                     bottom: 0;
                     z-index: 100;
                     opacity: 0.5;
 
                     padding: 10px;
                     border-top-left-radius: 4px;
-
                     color: white;
                     font-size: 40px;
                     font-family: 'Source Sans Pro', sans-serif;
